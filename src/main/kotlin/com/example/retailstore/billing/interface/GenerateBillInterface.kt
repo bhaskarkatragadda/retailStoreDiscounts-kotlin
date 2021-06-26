@@ -1,4 +1,4 @@
-package com.example.retailstore.billing.interfaces
+package com.example.retailstore.billing.`interface`
 
 
 import com.example.retailstore.billing.dto.UserCartInfo

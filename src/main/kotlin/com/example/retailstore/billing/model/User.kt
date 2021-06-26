@@ -1,14 +1,7 @@
 package com.example.retailstore.billing.model
 
-class User(name: String?, phone: String?, userType: UserType?) {
-    var id: String ? = null
-    var name: String? = null
-    var phone: String? = null
-    var userType: UserType? = null
+import java.util.*
 
-    init {
-        this.name = name
-        this.phone = phone
-        this.userType = userType
-    }
+class User(var name: String, var phone: String?, var userType: UserType) {
+    var id: String = UUID.randomUUID().toString()
 }
